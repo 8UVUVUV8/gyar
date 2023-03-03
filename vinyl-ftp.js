@@ -4,7 +4,7 @@ var ftp = require( 'vinyl-ftp' );
 var conn = new ftp( {
     host: 'ftpupload.net',
     user: 'epiz_33705804',
-    password: '...............',
+    password: '...........',
     parallel: 10,
     secure: true,
     secureOptions: {rejectUnauthorized: false}
